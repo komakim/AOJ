@@ -1,3 +1,5 @@
-a,b = map(int ,raw_input().split())
+#coding: UTF-8
 
-print a*b,a*2+b*2 
+input_number = int(input())
+
+print input_number ** 3
