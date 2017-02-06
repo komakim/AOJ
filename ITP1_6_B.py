@@ -22,7 +22,7 @@ def sort():
 def check(pattern,cards):
     answer=[]
     for i in range(1,13+1):
-        if not (i in cards):
+        if not (i in cards):   
             print pattern,i
 
 
